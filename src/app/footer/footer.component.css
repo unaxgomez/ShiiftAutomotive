@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 3em;
+}
+
+h5, p{
+    color: #F0F0F0;
+}
+
+.name{
+    font-size: 1.5em;
+}

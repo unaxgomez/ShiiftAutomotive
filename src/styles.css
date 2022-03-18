@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Akira';
+}
+
+h2, h4, h5, h6{
+    font-family: 'Akira';
+}
+
+h3, p{
+    font-family: 'Libre Franklin', sans-serif;
+}

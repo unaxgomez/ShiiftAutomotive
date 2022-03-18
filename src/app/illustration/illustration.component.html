@@ -1,0 +1,13 @@
+<!-- <button (click)="getIllustration()">Click me!</button> -->
+
+<div class="container">
+    <h1 class="title">ILLUSTRATION GALLERY</h1>
+    <h3 class="intro">Browse all the illustrations from SHIIFT Automotive and buy the ones you like!</h3>
+</div>
+
+<div *ngIf="illustration != undefined">
+
+    <!-- <p *ngFor="let illustration of illustration; let i = index">{{illustration.carName}}</p> -->
+    <a *ngFor="let illustration of illustration; let i = index" routerLink="/illustration/{{illustration.id}}"><img class="imagedisplayer" src="/assets/Illustrations/{{illustration.image}}"></a>
+    
+</div>

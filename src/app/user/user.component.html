@@ -1,0 +1,26 @@
+<h2 class="title">SIGN UP</h2>
+<h3 class="intro">Create an account just following these steps. <br> You will not be able to create an account unless you have filled all the gaps.</h3>
+
+<div class="form">
+    
+        <h4>Name</h4>
+        <input type="text" [(ngModel)]="us.name">
+    
+    <!-- <p>{{ name }}</p> -->
+
+    
+        <h4>Surname</h4>
+        <input type="text" [(ngModel)]="us.surname">
+    
+
+    
+        <h4>Email</h4>
+        <input type="text" [(ngModel)]="us.email">
+    
+        <h4>Password</h4>
+        <input type="password" [(ngModel)]="us.password">
+    
+
+        
+    </div>
+    <button class="bluebutton" (click)="postUser()" *ngIf="us.name != '' && us.surname != '' && us.email !='' && us.password != ''">Submit user</button>

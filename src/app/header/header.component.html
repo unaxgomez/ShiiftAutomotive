@@ -1,0 +1,12 @@
+<nav>
+    <div class="menuItems">
+        <a routerLink=""><img class="logo" src="/assets/Images/SH_LOGO.svg" alt="logo"></a>
+        <div class="textDeco">
+            <a routerLink="illustration">ILLUSTRATION</a>
+            <a *ngIf="!logged" routerLink="user">SIGN UP</a>
+            <a *ngIf="!logged" routerLink="login">LOG IN</a>
+            <a>MY CART</a>
+        </div>
+    </div>
+</nav>
+

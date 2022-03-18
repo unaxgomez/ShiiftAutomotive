@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;1,400&display=swap');
+
+@font-face {
+    font-family: "Akira";
+    src: local("Akira"), url(src/assets/Fonts/Akira_Expanded_Demo.otf) format("opentype");
+}
+
+.menuItems{
+    font-family: 'Akira';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+}
+
+.textDeco a,
+.textDeco a:hover,
+.textDeco,
+.textDeco a:visited{
+    text-decoration: none!important;
+    color: black;
+}
+
+.menuItems div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3em;
+    margin: 2em;
+    font-size: 0.8em;
+    
+}
+
+.logo{
+    max-width: 5em;
+    width: 100%;
+}

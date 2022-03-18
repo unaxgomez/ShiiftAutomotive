@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+@font-face {
+    font-family: "Akira";
+    src: local("Akira"), url(src/assets/Fonts/Akira_Expanded_Demo.otf) format("opentype");
+}
+
+h1{
+    font-family: 'Akira';
+}
+
+.title{
+    font-size: 6em;
+    
+    text-justify: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.intro{
+    font-size: 1em;
+    text-justify: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.bluesticker{
+    position: absolute;
+    left: 10%;
+    max-width: 15%;
+    z-index: -1;
+}
+
+.redsticker{
+    position: absolute;
+    left: 70%;
+    max-width: 10%;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.orangesticker{
+    position: absolute;
+    left: 30%;
+    max-width: 10%;
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
+.engine{
+    z-index: -2;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 10%;
+}
+
+.parallax {
+  
+    /* background-image: url("Turbo_Sticker_A.png"); */
+
+    /* Set a specific height */
+    max-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.centerImage{
+    text-align: center;
+}
+
+.nissan350z{
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+
+

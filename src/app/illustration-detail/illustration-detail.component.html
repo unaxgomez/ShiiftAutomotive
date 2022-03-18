@@ -1,0 +1,17 @@
+<!-- <p *ngIf="id !=  undefined">{{id}}</p> -->
+
+<div class="container" *ngIf="illustration != undefined">
+
+    <h2 class="title opacity">{{illustration.carName}} <br>{{illustration.carModel}}</h2>
+    <h2 class="title zIndex">{{illustration.carName}} <br>{{illustration.carModel}}</h2>
+    <img class="imagedisplayer" src="/assets/Illustrations/{{illustration.image}}">
+
+</div>
+<div class="info">
+    <p *ngIf="illustration?.typeillustrationId == 3">LowPoly Series</p>
+    <p>High resolution, print-ready digital image for non-commercial use. JPEG's can be used for any printed goods up to 24x36in/A1 and can easily be scaled down to fit most standard print sizes.</p>
+    <p><i>By purchasing this item, you understand that this is a digital product and no refunds will be given once files are emailed. </i></p>
+</div>
+<div>
+    <button class="bluebutton">BUY NOW</button>
+</div>

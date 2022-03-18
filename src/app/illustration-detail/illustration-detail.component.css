@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;1,400&display=swap');
+
+@font-face {
+    font-family: "Akira";
+    src: local("Akira"), url(src/assets/Fonts/Akira_Expanded_Demo.otf) format("opentype");
+}
+
+.zIndex{
+    z-index: -1;
+}
+
+.title{
+    font-family: "Akira";
+    font-size: 5em;
+    position: absolute;
+    margin: 5%;
+}
+
+
+.opacity{
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: transparent;
+    z-index: 9;   
+}
+
+img{
+    width: 50%;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.info{
+width: 50%;
+margin: auto;
+}
+
+.bluebutton{
+    background-color: #006af6;
+    color: white;
+    font-family: 'Akira';
+    border: none;
+    height: 5em;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.bluebutton:hover{
+    background-color: #0f5ec5;
+    cursor: pointer;
+}
