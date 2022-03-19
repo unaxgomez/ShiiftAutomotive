@@ -13,8 +13,8 @@ import { IllustrationDetailComponent } from './illustration-detail/illustration-
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
-import { SigninokComponent } from './signinok/signinok.component';
-import { LoginComponent } from './login/login.component'
+import { LoginComponent } from './login/login.component';
+import { MyaccountComponent } from './myaccount/myaccount.component'
 
 
 const routes: Routes = [
@@ -24,6 +24,7 @@ const routes: Routes = [
   {path: 'illustration', component: IllustrationComponent},
   {path: 'illustration/:id', component: IllustrationDetailComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'myaccount', component: MyaccountComponent},
 ]
 
 
@@ -37,8 +38,8 @@ const routes: Routes = [
     IllustrationComponent,
     IllustrationDetailComponent,
     FooterComponent,
-    SigninokComponent,
     LoginComponent,
+    MyaccountComponent,
   ],
   imports: [
     BrowserModule,

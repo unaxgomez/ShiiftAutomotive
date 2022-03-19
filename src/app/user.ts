@@ -8,3 +8,4 @@ export interface User {
     password: string,
     purchases?: Purchase[]
 }
+

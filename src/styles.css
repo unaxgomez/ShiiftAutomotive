@@ -23,4 +23,5 @@ h2, h4, h5, h6{
 
 h3, p{
     font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
 }

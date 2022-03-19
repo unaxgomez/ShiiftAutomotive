@@ -5,6 +5,10 @@
     font-size: 6em;
 }
 
+.showimage{
+    z-index: 9;
+}
+
 .form{
     display: flex;
     flex-direction: column;

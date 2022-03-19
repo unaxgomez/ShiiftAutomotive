@@ -1,0 +1,23 @@
+<!-- <button (click)="getIllustration()">Click me!</button> -->
+
+<div class="container">
+    <h1 class="title">MY ACCOUNT</h1>
+    <h3 class="intro">Edit your account info or even delete it if you want to do so.</h3>
+</div>
+
+<div class="form">
+    <h4>Name</h4>
+    <input type="text" value={{user.name}} [(ngModel)]="user.name">
+
+    <h4>Surname</h4>
+    <input type="text" value={{user.surname}} [(ngModel)]="user.surname">
+
+    <h4>Email</h4>
+    <input type="text" value={{user.email}} [(ngModel)]="user.email">
+
+    <h4>Password</h4>
+    <input type="password" value={{user.password}} [(ngModel)]="user.password">
+
+</div>
+<button class="redbutton">Delete my account</button>
+<button class="bluebutton" (click)="putUser()">Update my account</button>

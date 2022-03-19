@@ -14,11 +14,12 @@
     font-size: 5em;
     position: absolute;
     margin: 5%;
+    color: #293120;
 }
 
 
 .opacity{
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 3px #293120;
     -webkit-text-fill-color: transparent;
     z-index: 9;   
 }

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+@font-face {
+    font-family: "Akira";
+    src: local("Akira"), url(src/assets/Fonts/Akira_Expanded_Demo.otf) format("opentype");
+}
+
+h1{
+    font-family: 'Akira';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.imagedisplayer{
+    width: 30%;
+    margin: 5% 10% 5% 10%;
+    flex-wrap: wrap;
+}
+
+
+.title{
+    text-align: center;
+    justify-content: center;
+    font-size: 6em;
+}
+
+.showimage{
+    z-index: 9;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4em;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.intro{
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+}
+
+input{
+    background-color: white;
+    border: none;
+    height: 10vh;
+    font-size: 2em;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.bluebutton{
+    background-color: #006af6;
+    color: white;
+    font-family: 'Akira';
+    border: none;
+    height: 5em;
+    width: 100%;
+}
+
+.bluebutton:hover{
+    background-color: #0f5ec5;
+    cursor: pointer;
+}
+
+.redbutton{
+    background-color: #ff3553;
+    color: white;
+    font-family: 'Akira';
+    border: none;
+    height: 2em;
+    width: 20%;
+    margin-top: 5%;
+}
+
+.redbutton:hover{
+    background-color: #c5263e;
+    cursor: pointer;
+}

@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.logout{
+    color: #ff3553 !important;
+}
+
 .textDeco a,
 .textDeco a:hover,
 .textDeco,

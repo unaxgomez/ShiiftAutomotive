@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   logged: boolean = false
+  userId: number = -1
   constructor() { }
 
   ngOnInit(): void {
@@ -14,6 +15,11 @@ export class HeaderComponent implements OnInit {
       this.logged = true
     }
 
+  }
+
+  logOut(): void {
+    localStorage.clear();
+    location.href = "/"
   }
 
 }
