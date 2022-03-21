@@ -5,7 +5,9 @@
     background-color: black;
     padding-top: 1em;
     padding-left: 2em;
+    padding-right: 2em;
     padding-bottom: 3em;
+    max-width: 100%;
 }
 
 h5, p{

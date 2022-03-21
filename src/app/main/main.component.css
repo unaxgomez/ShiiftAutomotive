@@ -27,6 +27,7 @@ h2{
     left: 10%;
     max-width: 15%;
     z-index: -1;
+    transform: translateZ(-50px);
 }
 
 .redsticker{

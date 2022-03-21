@@ -17,13 +17,6 @@
     justify-content: center;
 }
 
-input{
-    background-color: white;
-    border: none;
-    height: 10vh;
-    font-size: 2em;
-    font-family: 'Libre Franklin', sans-serif;
-}
 
 .bluebutton{
     background-color: #006af6;
