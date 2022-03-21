@@ -16,7 +16,10 @@ export class MyaccountComponent implements OnInit {
     email: "",
     password: "",
   }
-  userId:number = -1;
+  userId: number = -1;
+
+  
+  
   constructor(public userService: UserServiceService) { }
 
   ngOnInit(): void {
@@ -35,5 +38,11 @@ export class MyaccountComponent implements OnInit {
       
     });
   }
+
+  deleteUser(id: number): void{
+    this.userService.deleteUser(id).subscribe(data =>{
+      console.log(data);
+  });
+}
 
 }

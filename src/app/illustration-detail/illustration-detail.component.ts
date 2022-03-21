@@ -14,6 +14,7 @@ export class IllustrationDetailComponent implements OnInit {
 
   id: number=0;
   illustration?: Illustration;
+  illustrations?: Illustration[];
 
   ngOnInit(): void {
     console.log(this.route);
@@ -28,6 +29,25 @@ export class IllustrationDetailComponent implements OnInit {
         console.log(this.illustration);
       })
     })
+  }
+
+  getIllustrationDetail(): void{
+    this.service.getIllustrationDetail(this.id).subscribe(data =>{
+      this.illustration = data;
+      console.log(this.illustration);
+  })
+  }
+
+  myCart(): void{
+    if(localStorage.getItem("carrito")){
+      this.illustrations = JSON.parse(JSON.parse(JSON.stringify(localStorage.getItem("carrito"))))
+      if(this.illustration != null){
+        this.illustrations?.push(this.illustration)
+      }
+      localStorage.setItem("carrito", JSON.stringify(this.illustrations))
+    } else {
+      localStorage.setItem("carrito", JSON.stringify([this.illustration]))
+    }
   }
 
 }

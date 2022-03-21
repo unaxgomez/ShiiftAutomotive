@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-html{
-    scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+@font-face {
+    font-family: "Akira";
+    src: local("Akira"), url(src/assets/Fonts/Akira_Expanded_Demo.otf) format("opentype");
 }
+
+/* html{
+    scroll-behavior: smooth;
+} */
 
 body{
     background-color: #f0f0f0;
@@ -17,11 +25,64 @@ h1{
     font-family: 'Akira';
 }
 
-h2, h4, h5, h6{
+ h4, h5, h6{
     font-family: 'Akira';
 }
 
 h3, p{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 400;
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 5vw;
+    max-width: 70%;
+    margin: auto;
+    word-wrap: break-word;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+.intro{
+    font-size: 1.2vw;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 3em;
+        word-wrap: none;
+    }
+}
+
+@media (max-width: 767px){
+    h1{
+        max-width: 80%;
+        font-size: 2em;
+    }
+
+    .opacity{
+        -webkit-text-stroke: 1px !important;
+    }
+
+    .menuItems{
+        flex-direction: column !important;
+        text-align: center;
+    }
+    
 }

@@ -1,9 +1,4 @@
 
-.title{
-    text-align: center;
-    justify-content: center;
-    font-size: 6em;
-}
 
 .showimage{
     z-index: 9;
@@ -20,9 +15,10 @@
 }
 
 .intro{
-    font-size: 1em;
-    text-align: center;
+    font-size: 1.2vw;
     justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 input{

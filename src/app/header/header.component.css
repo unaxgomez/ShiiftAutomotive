@@ -12,6 +12,7 @@
     justify-content: space-between;
     margin: 2em;
     align-items: center;
+    max-width: 100%;
 }
 
 .logout{

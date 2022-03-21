@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;1,400&display=swap');
-
-
-@font-face {
-    font-family: "Akira";
-    src: local("Akira"), url(src/assets/Fonts/Akira_Expanded_Demo.otf) format("opentype");
-}
-
-h1{
-    font-family: 'Akira';
-}
-
-.imagedisplayer{
-    width: 30%;
-    margin: 5% 10% 5% 10%;
-    flex-wrap: wrap;
-}
-
 
 
 .showimage{
@@ -53,6 +35,7 @@ input{
     border: none;
     height: 5em;
     width: 100%;
+    margin-top: 5%;
 }
 
 .bluebutton:hover{
@@ -60,17 +43,43 @@ input{
     cursor: pointer;
 }
 
+.cartDisplayer{
+    gap: 2em;
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.imagedisplayer{
+    width: 30%;
+    height: 30%;
+    margin: 2% 10% 2% 10%;
+    flex-wrap: wrap;
+}
+
+.align{
+    text-align: center;
+   justify-content: center;
+}
+
+.margin{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 .redbutton{
     background-color: #ff3553;
     color: white;
     font-family: 'Akira';
     border: none;
-    height: 2em;
-    width: 20%;
+    height: 5em;
+    width: 100%;
     margin-top: 5%;
 }
 
 .redbutton:hover{
-    background-color: #c5263e;
+    background-color: #c42b42;
     cursor: pointer;
 }

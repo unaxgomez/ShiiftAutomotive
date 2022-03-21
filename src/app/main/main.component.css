@@ -10,13 +10,6 @@ h1{
     font-family: 'Akira';
 }
 
-.title{
-    font-size: 6em;
-    
-    text-justify: center;
-    justify-content: center;
-}
-
 h2{
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -27,13 +20,7 @@ h2{
     justify-content: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 10em;
-    margin-left: 10em;
-}
+
 
 .bluesticker{
     position: absolute;

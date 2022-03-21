@@ -1,0 +1,21 @@
+
+
+.showimage{
+    z-index: 9;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4em;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.intro{
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+}

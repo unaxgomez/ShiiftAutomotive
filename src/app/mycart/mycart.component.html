@@ -1,0 +1,19 @@
+<!-- <button (click)="getIllustration()">Click me!</button> -->
+
+<h1 class="title">MY CART</h1>
+<h3 class="intro">Take a look at what you are about to buy.</h3>
+<div *ngIf="illustrations != undefined">
+    <div class="cartDisplayer" *ngFor="let illustration of illustrations; let i = index">
+        <img class="imagedisplayer" src="/assets/Illustrations/{{illustration.image}}">
+        <div>
+        <h4>{{illustration.carName}} <br>
+            {{illustration.carModel}} </h4><p>Quantity: 1</p> <p>Digital illustration</p>
+        </div>
+    </div>
+</div>
+
+<div class="align">
+    <p class="margin"> <i> To continue with this order, insert your card and contact details and product will be delivered as soon as possible. </i></p>
+    <p class="margin">If you have any question, do not hesitate to contact our customer service via Instagram: @shiiftautomotive</p>
+    <button *ngIf="illustrations != undefined" class="redbutton" (click)="emptyCart()">DELETE SELECTION</button>
+</div>

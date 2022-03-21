@@ -6,7 +6,7 @@
             <a *ngIf="!logged" routerLink="user">SIGN UP</a>
             <a *ngIf="!logged" routerLink="login">LOG IN</a>
             <a *ngIf="logged" routerLink="myaccount">MY ACCOUNT</a>
-            <a *ngIf="logged">MY CART</a>
+            <a *ngIf="logged" routerLink="mycart">MY CART</a>
             <a class="logout" href="#" *ngIf="logged" (click)="logOut()">LOG OUT</a>
         </div>
     </div>

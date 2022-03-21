@@ -11,27 +11,13 @@ h1{
 }
 
 
-
-.title{
-    font-size: 6em;
-    
-    text-justify: center;
-    justify-content: center;
-}
-
 .intro{
     font-size: 1em;
     text-justify: center;
     justify-content: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 10em;
-    margin-left: 10em;
-}
+
 
 .imagedisplayer{
     width: 30%;

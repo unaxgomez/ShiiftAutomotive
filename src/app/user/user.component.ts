@@ -15,9 +15,6 @@ export class UserComponent implements OnInit {
     password: ""
   }
   
-  
-  
-
   constructor(public userService: UserServiceService ) { }
 
   ngOnInit(): void {
@@ -25,6 +22,7 @@ export class UserComponent implements OnInit {
 
   postUser(): void {
     this.userService.postUser(this.us).subscribe();
+    location.href = "/";
   }
 
 }

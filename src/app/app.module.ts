@@ -14,7 +14,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
-import { MyaccountComponent } from './myaccount/myaccount.component'
+import { MyaccountComponent } from './myaccount/myaccount.component';
+import { MycartComponent } from './mycart/mycart.component'
+import { NotfoundComponent } from './notfound/notfound.component';
 
 
 const routes: Routes = [
@@ -25,6 +27,9 @@ const routes: Routes = [
   {path: 'illustration/:id', component: IllustrationDetailComponent},
   {path: 'login', component: LoginComponent},
   {path: 'myaccount', component: MyaccountComponent},
+  {path: 'mycart', component: MycartComponent},
+  {path: '**', component: NotfoundComponent},
+
 ]
 
 
@@ -40,6 +45,7 @@ const routes: Routes = [
     FooterComponent,
     LoginComponent,
     MyaccountComponent,
+    MycartComponent,
   ],
   imports: [
     BrowserModule,

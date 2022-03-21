@@ -33,4 +33,8 @@ export class UserServiceService {
   putUser(user: User): Observable<User>{
     return this.http.put<User>("https://localhost:5001/api/Users/" + user.id, user, this.httpOptions)
   }
+
+  deleteUser(id: number): Observable<User>{
+    return this.http.delete<User>("https://localhost:5001/api/Users/" + id)
+  }
 }
