@@ -83,6 +83,8 @@ input{
     margin-top: 5%;
 }
 
+
+
 .bigredbutton{
     background-color: #ff3553;
     color: white;
@@ -91,6 +93,11 @@ input{
     height: 5em;
     width: 100%;
     margin-top: 5%;
+}
+
+.bigredbutton:hover{
+    cursor: pointer;
+    background-color: #c5263e;
 }
 
 .redbutton:hover{
@@ -110,6 +117,10 @@ input{
 .bluebutton:hover{
     background-color: #0f5ec5;
     cursor: pointer;
+}
+
+.marginbot{
+    margin-bottom: 10%;
 }
 
 @media (max-width: 1024px){
@@ -160,4 +171,11 @@ input{
         width: auto !important;
     }
 
+    .marginbot{
+        margin-bottom: 60%;
+    }
+
+    .info{
+        font-size: 1em;
+    }
 }
