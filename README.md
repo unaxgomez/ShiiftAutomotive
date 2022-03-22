@@ -1,3 +1,8 @@
+READ THIS PLEASE!!!
+This project runs with a database hosted locally, so it is recommended to check the code to see the structure and the SCREENSHOTS folder.
+
+//
+
 # ShiiftAutomotive
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
